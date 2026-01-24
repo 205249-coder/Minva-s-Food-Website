@@ -1,2 +1,2 @@
-# Minva-s-Food-Website
+# Minva-s-Food-Blog
 PO Informatica
