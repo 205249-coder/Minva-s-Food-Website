@@ -1,41 +1,116 @@
+/* MB: Algemene pagina opmaak */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   background-color: #FFFDD0;
   text-align: center;
 }
 
+/* MB: Header opmaak */
 header {
-  background-color: #fff;
+  background-color: #DFD1E1;
   padding: 20px;
 }
 
+/* MB: Link stijl */
+a {color: #2b1b5a;}
+a:hover {text-decoration: underline;}
+
+/* MB: Kaarten op de homepagina */
 .grid {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin: 30px;
+  flex-wrap: nowrap; 
 }
 
+/* MB: Kaart design */
 .card {
   background: white;
+  border: 2px solid purple;
+  width: 260px;
   padding: 10px;
-  width: 200px;
   text-decoration: none;
-  color: black;
-  border: 2px solid blue;
+  color: black; 
 }
 
+/* NC: Afbeeldingen netjes maken */
 .card img {
   width: 100%;
+  height: auto;
+  display: block;
 }
 
+/* MB: Foto hover effect */
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#DFD1E1; 
+  opacity:0;
+  transition:0.3s;
+}
+
+.card:hover::after{
+  opacity:0.6;
+}
+
+
+/* NC: Algemene box stijl (Over ons / Achtergrondinfo / Recept secties) */
 .box {
-  background: white;
-  margin: 30px;
+  background: #d9cfe0;
   padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 8px;
+  flex:1;
 }
 
+/* NC: Leesbaarheid */
+.box { text-align: left; }
+header, footer { text-align: center; }
+
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.half{
+  width: 40%;
+}
+
+/* NC: Float + clear (rubric) */
+.row { width: 80%; margin: 30px auto; }
+.half { width: 48%; float: left; }
+.half.right { float: right; }
+.row::after { content: ""; display: block; clear: both; }
+
+/* NC: Tabellen */
+.tbl { width: 100%; border-collapse: collapse; }
+.tbl th, .tbl td { border: 1px solid #999; padding: 8px; text-align: left; }
+
+.box ul{
+padding-left:0;
+list-style-position:inside;
+text-align:left;
+}
+
+.box h3{
+border-bottom:2px solid rgba(0,0,0,0.2);
+padding-bottom:5px;
+}
+
+/* NC: Footer */
 footer {
   margin: 20px;
 }
