@@ -4,7 +4,7 @@ Tijdens dit project hebben wij geleerd hoe we een website kunnen bouwen met HTML
 
 Een techniek die wij goed hebben leren gebruiken is Flexbox. Hiermee konden wij de kaarten op de homepage netjes naast elkaar plaatsen. In het begin stonden de blokken steeds onder elkaar, maar door te experimenteren met display: flex en justify-content is het uiteindelijk gelukt om het goed uit te lijnen.
 
-Wat wij lastig vonden was het netjes uitlijnen van de tekst en de boxen. Soms verschoof alles wanneer we iets aanpasten in de CSS. We hebben dit opgelost door stap voor stap te testen en kleine aanpassingen te doen in plaats van alles tegelijk te veranderen.
+Wat wij lastig vonden was het netjes uitlijnen van de tekst en de boxen. Soms verschoof alles wanneer we iets aanpasten in de CSS. De boxen stonden niet naast elkaar, maar bleven onder elkaar of diagonaal staan. We hebben dit opgelost door stap voor stap te testen en kleine aanpassingen te doen in plaats van alles tegelijk te veranderen. Ook hadden we moeite met schaduwen voor de boxen te maken, omdat er verschillende code's zijn. Deze problemen hebben we ondere andere verholpen door het gebruik van chat gpt, door te vragen wat de fouten waren in onze code.
 
 De samenwerking verliep goed. Wij hebben de taken verdeeld door ieder een land en bijbehorend recept uit te werken. Daarnaast hebben wij samen gekeken naar de opmaak en het design van de website, zodat alles één geheel bleef. Als iemand iets niet begreep, hielpen wij elkaar.
 
